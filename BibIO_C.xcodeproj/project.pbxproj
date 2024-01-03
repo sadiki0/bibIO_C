@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA9D27F72B44AAE400C337A5 /* BibioC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibioC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9D27F72B44AAE400C337A5 /* BibIO_C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibIO_C.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9D27FA2B44AAE400C337A5 /* BibioCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibioCApp.swift; sourceTree = "<group>"; };
 		AA9D27FC2B44AAE400C337A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA9D27FE2B44AAE800C337A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		AA9D27EE2B44AAE400C337A5 = {
 			isa = PBXGroup;
 			children = (
-				AA9D27F92B44AAE400C337A5 /* BibioC */,
+				AA9D27F92B44AAE400C337A5 /* BibIO_C */,
 				AA9D27F82B44AAE400C337A5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,12 +43,12 @@
 		AA9D27F82B44AAE400C337A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA9D27F72B44AAE400C337A5 /* BibioC.app */,
+				AA9D27F72B44AAE400C337A5 /* BibIO_C.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA9D27F92B44AAE400C337A5 /* BibioC */ = {
+		AA9D27F92B44AAE400C337A5 /* BibIO_C */ = {
 			isa = PBXGroup;
 			children = (
 				AA9D27FA2B44AAE400C337A5 /* BibioCApp.swift */,
@@ -56,7 +56,7 @@
 				AA9D27FE2B44AAE800C337A5 /* Assets.xcassets */,
 				AA9D28002B44AAE800C337A5 /* Preview Content */,
 			);
-			path = BibioC;
+			path = BibIO_C;
 			sourceTree = "<group>";
 		};
 		AA9D28002B44AAE800C337A5 /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA9D27F62B44AAE400C337A5 /* BibioC */ = {
+		AA9D27F62B44AAE400C337A5 /* BibIO_C */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA9D28052B44AAE800C337A5 /* Build configuration list for PBXNativeTarget "BibioC" */;
+			buildConfigurationList = AA9D28052B44AAE800C337A5 /* Build configuration list for PBXNativeTarget "BibIO_C" */;
 			buildPhases = (
 				AA9D27F32B44AAE400C337A5 /* Sources */,
 				AA9D27F42B44AAE400C337A5 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = BibioC;
+			name = BibIO_C;
 			productName = BibioC;
-			productReference = AA9D27F72B44AAE400C337A5 /* BibioC.app */;
+			productReference = AA9D27F72B44AAE400C337A5 /* BibIO_C.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA9D27F22B44AAE400C337A5 /* Build configuration list for PBXProject "BibioC" */;
+			buildConfigurationList = AA9D27F22B44AAE400C337A5 /* Build configuration list for PBXProject "BibIO_C" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA9D27F62B44AAE400C337A5 /* BibioC */,
+				AA9D27F62B44AAE400C337A5 /* BibIO_C */,
 			);
 		};
 /* End PBXProject section */
@@ -196,7 +196,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -268,22 +268,24 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BibioC/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BibIO_C/Preview Content\"";
 				DEVELOPMENT_TEAM = YNRP87FAUN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = libsadiki.BibioC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "so.libsadiki.BibIO-C";
+				PRODUCT_NAME = BibIO_C;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,22 +299,24 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BibioC/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BibIO_C/Preview Content\"";
 				DEVELOPMENT_TEAM = YNRP87FAUN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = libsadiki.BibioC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "so.libsadiki.BibIO-C";
+				PRODUCT_NAME = BibIO_C;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA9D27F22B44AAE400C337A5 /* Build configuration list for PBXProject "BibioC" */ = {
+		AA9D27F22B44AAE400C337A5 /* Build configuration list for PBXProject "BibIO_C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA9D28032B44AAE800C337A5 /* Debug */,
@@ -331,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA9D28052B44AAE800C337A5 /* Build configuration list for PBXNativeTarget "BibioC" */ = {
+		AA9D28052B44AAE800C337A5 /* Build configuration list for PBXNativeTarget "BibIO_C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA9D28062B44AAE800C337A5 /* Debug */,
